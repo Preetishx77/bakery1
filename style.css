@@ -78,9 +78,7 @@ body {
 #img11{
     position: absolute;
     left: 0%;
-    /* top: -60px;
-    left: 82%;
-    size: 50%; */
+
 }
 #landing{
     background-color: #fff3f1;
@@ -97,3 +95,15 @@ body {
     top: -200%;
     transform: rotate(90deg);
 }
+#img13{
+    position: absolute;
+    right: 0%;
+    transform: rotate(180deg);
+    top: 155%;
+}
+@media only screen and (max-width: 600px) {
+    #img13 {
+        display: none;
+     
+    }
+  }
